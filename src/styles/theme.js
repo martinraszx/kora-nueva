@@ -10,5 +10,3 @@ export const COLORS = {
   vino_purpura: '#73155C',
   rosa_viejo: '#C28CB6',
 };
-
-//8cd9c6
