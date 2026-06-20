@@ -67,7 +67,7 @@ Puesta en marcha del sistema en el entorno objetivo para evaluar su impacto y co
 | **Eduard Contreras** | Testeador de la aplicación & Encargado de Informe en LaTeX |
 
 ---
-## Instalación
+## Como hacer el proceso de Instalación
 # Windows
 
 Este proyecto de Kora es una aplicación móvil desarrollada utilizando **React Native** y el ecosistema **Expo Go**. A continuación, se detalla el flujo de instalación completo junto con el catálogo de comandos necesarios para administrar, depurar y ejecutar el servidor de desarrollo en entornos Windows.
