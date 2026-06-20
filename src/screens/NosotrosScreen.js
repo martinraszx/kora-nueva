@@ -50,19 +50,19 @@ const EQUIPO = [
     id: '2', 
     nombre: 'Felipe', 
     foto: require('../../assets/felipe.jpg'),
-    biografia: 'Biografía de Felipe en construcción. ¡Próximamente!'
+    biografia: 'Buenas mi nombre es Felipe Levicán Barría, estudiante de Ingeniería Civil en Informática, y desde el mes de Abril que tenemos este proyecto, me dedique en estar encargado en la parte de liderar el equipo por parte de Diseño y en que se haga los trabajos necesarios para que este proyecto vaya por un buen camino'
   },
   { 
     id: '3', 
     nombre: 'Martín', 
     foto: require('../../assets/martin.jpg'),
-    biografia: 'Biografía de Martín en construcción. ¡Próximamente!'
+    biografia: 'Soy Martin Renato Aguirre Salazar y estoy cursando el primer año de ingeniería civil en informática, junto a mi equipo nos reunimos para crear esta App llamada Kora, yo principalmente en enfoque en el desarrollo interno de la App para que funcione y sea fácil de entender, mis compañeros me ayudaron a lograr a lo que llegamos hasta ahora, aun tiene sus fallos pero esta funcionando al 100%'
   },
   { 
     id: '4', 
-    nombre: 'Nacho', 
+    nombre: 'Ignacío', 
     foto: require('../../assets/nacho.jpg'),
-    biografia: 'Biografía de Nacho en construcción. ¡Próximamente!'
+    biografia: 'Hola soy Ignacio Marcelo Saez Straussmann soy estudiante de primer año de la ulagos, estudio ingenieria civil informatica,  con mi grupo del proyecto integrador nos juntamos para crear y diseñar KoraApp una aplicacion que es una herramienta que ayuda a identificar conductas de manipulacion psicologica y de control en relaciones durante la etapa universitaria, en este trabajo me enfoque en parte de creacion del codigo de la app osea el desarrollo interno y tambien me encargue del diseño del logo de la app.'
   },
 ];
 
