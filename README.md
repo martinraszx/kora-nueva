@@ -48,7 +48,48 @@ El proyecto sigue una estructura de desarrollo secuencial y metodológica dividi
 | **Eduard Contreras** | Testeador de la aplicación & Encargado de Informe en LaTeX |
 
 ---
+## Instalación
+# Intalación en Windows
 
+Este proyecto (`kora-nueva`) es una aplicación móvil desarrollada utilizando **React Native** y el ecosistema **Expo Go**. A continuación, se detalla el flujo de instalación completo junto con el catálogo de comandos necesarios para administrar, depurar y ejecutar el servidor de desarrollo en entornos Windows.
+
+---
+
+## 1. Prerrequisitos del Sistema
+
+Antes de iniciar con los comandos, asegúrese de contar con las siguientes herramientas instaladas:
+
+### En la Computadora (Windows)
+1. **Node.js (Versión LTS recomendada):** Incluye automáticamente `npm` (Node Package Manager). Descárguelo en [nodejs.org](https://nodejs.org/).
+2. **Git:** Necesario para el control de versiones y la clonación del repositorio. Descárguelo en [git-scm.com](https://git-scm.com/).
+3. **Editor de Código:** Se sugiere [Visual Studio Code](https://code.visualstudio.com/).
+
+### En el Dispositivo Móvil (Smartphone)
+* Descargue e instale la aplicación gratuita **Expo Go** desde la Google Play Store (Android) o la App Store (iOS).
+
+> ⚠️ **REQUISITO CRÍTICO DE RED:** La computadora con Windows y el dispositivo móvil con Expo Go **deben estar conectados exactamente a la misma red Wi-Fi** local.
+
+---
+
+## 2. Instalación Paso a Paso
+
+Abra la terminal de Windows (PowerShell, CMD o terminal de VS Code) y ejecute los siguientes comandos en orden:
+
+```bash
+# 1. Clonar el repositorio remoto
+git clone [https://github.com/martinraszx/kora-nueva.git](https://github.com/martinraszx/kora-nueva.git)
+
+# 2. Acceder a la carpeta del proyecto
+cd kora-nueva
+
+# 3. Instalar todas las dependencias del archivo package.json
+npm install
+
+# 4. Inicio Estándar
+npm start
+
+```
+---
 ## 📊 Viabilidad del Software
 
 * **Técnica:** La aplicación es ligera, rápida y compatible con la mayoría de los sistemas operativos móviles actuales debido a que ejecuta sus algoritmos de manera nativa y local.
