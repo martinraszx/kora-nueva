@@ -48,7 +48,25 @@ El proyecto sigue una estructura de desarrollo secuencial y metodológica dividi
 | **Eduard Contreras** | Testeador de la aplicación & Encargado de Informe en LaTeX |
 
 ---
+## Instalación
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 ## 📊 Viabilidad del Software
 
 * **Técnica:** La aplicación es ligera, rápida y compatible con la mayoría de los sistemas operativos móviles actuales debido a que ejecuta sus algoritmos de manera nativa y local.
