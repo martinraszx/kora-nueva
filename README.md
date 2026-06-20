@@ -28,14 +28,27 @@ A través de cuestionarios breves y dinámicos supervisados académicamente, la 
 
 ## 🛠️ Metodología de Desarrollo
 
-El proyecto sigue una estructura de desarrollo secuencial y metodológica dividida en 5 etapas críticas:
+El desarrollo de este proyecto se rige bajo el marco metodológico internacional **CDIO (Concebir, Diseñar, Implementar, Operar)**, estructurando nuestras 5 etapas críticas en un ciclo de ingeniería incremental y ordenado:
 
-1. Levantamiento de datos sobre dinámicas de relaciones de pareja con el apoyo de Dirección de Genero
-2. Estructurar una organización de equipo y asignación de responsabilidades específicas.
-3. Codificación y desarrollo de la interfaz de usuario (UI/UX) y de la lógica algorítmica local.
-4. Fase de pruebas en entornos reales para evaluar usabilidad y efectividad de las rutas de escape.
-5. Implementar mejoras críticas e iteración de interfaz post-testeo.
+### 1. Concebir (Conceive)
+Esta fase define las necesidades del usuario, los requisitos del sistema y la organización estratégica del proyecto.
+* **Levantamiento de Datos:** Investigación inicial sobre dinámicas de relaciones de pareja en entornos estudiantiles. Contamos con el respaldo y validación técnica de la **Dirección de Género** para asegurar que el enfoque conceptual de las rutas de apoyo sea seguro y asertivo.
+* **Iteración Conceptual:** Tras la fase de operación, los datos recolectados se reevalúan en esta etapa para concebir nuevas mejoras funcionales.
 
+### 2. Diseñar (Design)
+Enfocada en la arquitectura técnica, la experiencia de usuario y la gestión interna del equipo de desarrollo.
+* **Estructuración y Organización:** Definición del plan de trabajo, establecimiento de roles internos del grupo y asignación de responsabilidades específicas para la construcción del software. Se modelan los diagramas de flujo y las pantallas iniciales (wireframes) de la interfaz de usuario.
+
+### 3. Implementar (Implement)
+Traducción del diseño en un producto mínimo viable (MVP) mediante ingeniería de software.
+* **Etapa 3: Codificación y Desarrollo:** Creación de la interfaz de usuario (UI/UX) utilizando **React Native** y **Expo Go**. Programación de la lógica algorítmica local, almacenamiento seguro de datos y el despliegue del sistema confidencial de las rutas de escape.
+
+### 4. Operar (Operate)
+Puesta en marcha del sistema en el entorno objetivo para evaluar su impacto y comportamiento real.
+* **Fase de Pruebas en Entornos Reales:** Despliegue guiado de la aplicación con estudiantes de liceos y de la Universidad para evaluar de manera presencial la usabilidad de la interfaz, el nivel de confidencialidad percibido y la efectividad práctica de las rutas de escape ante situaciones críticas.
+
+### 5. Ciclo de Mejora Continua (Post-Operación)
+* **Implementación de Mejoras:** Procesamiento de los comentarios, fallos detectados y métricas obtenidas durante la fase de operación para iterar la interfaz, optimizando el software antes de su liberación definitiva.
 ---
 
 ## 👥 Equipo de Trabajo y Roles
@@ -51,7 +64,7 @@ El proyecto sigue una estructura de desarrollo secuencial y metodológica dividi
 ## Instalación
 # Windows
 
-Este proyecto (`kora-nueva`) es una aplicación móvil desarrollada utilizando **React Native** y el ecosistema **Expo Go**. A continuación, se detalla el flujo de instalación completo junto con el catálogo de comandos necesarios para administrar, depurar y ejecutar el servidor de desarrollo en entornos Windows.
+Este proyecto de Kora es una aplicación móvil desarrollada utilizando **React Native** y el ecosistema **Expo Go**. A continuación, se detalla el flujo de instalación completo junto con el catálogo de comandos necesarios para administrar, depurar y ejecutar el servidor de desarrollo en entornos Windows.
 
 ---
 
