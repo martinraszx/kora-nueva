@@ -49,7 +49,7 @@ El proyecto sigue una estructura de desarrollo secuencial y metodológica dividi
 
 ---
 ## Instalación
-# Intalación en Windows
+# Windows
 
 Este proyecto (`kora-nueva`) es una aplicación móvil desarrollada utilizando **React Native** y el ecosistema **Expo Go**. A continuación, se detalla el flujo de instalación completo junto con el catálogo de comandos necesarios para administrar, depurar y ejecutar el servidor de desarrollo en entornos Windows.
 
@@ -86,6 +86,45 @@ cd kora-nueva
 npm install
 
 # 4. Inicio Estándar
+npm start
+
+```
+# Linux
+
+## 1. Prerrequisitos del Sistema
+
+A diferencia de otros sistemas operativos, los entornos Linux requieren herramientas específicas de gestión de versiones para evitar conflictos de permisos de administrador (`sudo`) al instalar paquetes globales. Asegúrese de contar con lo siguiente:
+
+### En la Computadora (Linux)
+* **Node.js (Versión LTS recomendada):** Se sugiere instalarlo a través de `nvm` (Node Version Manager) para gestionar las versiones de JavaScript de manera segura a nivel de usuario.
+* **Git:** Herramienta esencial de control de versiones para clonar e interactuar con el repositorio.
+* **Manejador de paquetes npm:** Incluido automáticamente al instalar Node.js.
+
+---
+
+## 2. Configuración Esencial en Linux (Paso Previo Obligatorio)
+
+Por defecto, los sistemas operativos Linux limitan la cantidad de archivos que un programa puede vigilar en tiempo real a través del sistema `inotify`. Debido al gran volumen de dependencias y módulos que maneja React Native, si no expande este límite, el comando de inicio fallará con el error `ENOSPC: System limit for number of file watchers reached`.
+
+Para solucionarlo de forma permanente en su máquina, abra la terminal y ejecute los siguientes comandos:
+
+```bash
+# 1. Registrar el nuevo límite máximo de vigilantes en el archivo de configuración del sistema
+echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf
+
+# 2. Cargar y aplicar los cambios en el kernel de forma inmediata
+sudo sysctl -p
+
+# Paso 1: Clonar el repositorio remoto desde GitHub
+git clone [https://github.com/martinraszx/kora-nueva.git](https://github.com/martinraszx/kora-nueva.git)
+
+# Paso 2: Trasladar la ruta de la terminal a la carpeta raíz del proyecto
+cd kora-nueva
+
+# Paso 3: Descargar e instalar los paquetes definidos en el archivo package.json
+npm install
+
+# Inicio Estandar
 npm start
 
 ```
