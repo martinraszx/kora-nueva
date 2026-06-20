@@ -50,7 +50,13 @@ Puesta en marcha del sistema en el entorno objetivo para evaluar su impacto y co
 ### 5. Ciclo de Mejora Continua (Post-Operación)
 * **Implementación de Mejoras:** Procesamiento de los comentarios, fallos detectados y métricas obtenidas durante la fase de operación para iterar la interfaz, optimizando el software antes de su liberación definitiva.
 ---
+## 📊 Viabilidad del Software
 
+* **Técnica:** La aplicación es ligera, rápida y compatible con la mayoría de los sistemas operativos móviles actuales debido a que ejecuta sus algoritmos de manera nativa y local.
+* **Legal:** Riesgo jurídico mínimo ya que está exenta de las complejidades de la ley de protección y custodia de datos sensibles al no utilizar registros en la nube.
+* **Operativa y Ética:** El contenido técnico y las escalas metodológicas cuentan con el respaldo de la Carrera de Psicología y la Dirección de Género de la Universidad de Los Lagos.
+
+---
 ## 👥 Equipo de Trabajo y Roles
 
 | Integrante | Roles y Responsabilidades |
@@ -148,5 +154,4 @@ npm start
 * **Legal:** Riesgo jurídico mínimo ya que está exenta de las complejidades de la ley de protección y custodia de datos sensibles al no utilizar registros en la nube.
 * **Operativa y Ética:** El contenido técnico y las escalas metodológicas cuentan con el respaldo de la Carrera de Psicología y la Dirección de Género de la Universidad de Los Lagos.
 
----
 _Proyecto desarrollado en el Departamento de Ciencias de la Ingeniería de la Universidad de Los Lagos, Sede Chiloé._
