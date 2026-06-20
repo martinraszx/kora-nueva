@@ -148,10 +148,4 @@ npm start
 
 ```
 ---
-## 📊 Viabilidad del Software
-
-* **Técnica:** La aplicación es ligera, rápida y compatible con la mayoría de los sistemas operativos móviles actuales debido a que ejecuta sus algoritmos de manera nativa y local.
-* **Legal:** Riesgo jurídico mínimo ya que está exenta de las complejidades de la ley de protección y custodia de datos sensibles al no utilizar registros en la nube.
-* **Operativa y Ética:** El contenido técnico y las escalas metodológicas cuentan con el respaldo de la Carrera de Psicología y la Dirección de Género de la Universidad de Los Lagos.
-
 _Proyecto desarrollado en el Departamento de Ciencias de la Ingeniería de la Universidad de Los Lagos, Sede Chiloé._
