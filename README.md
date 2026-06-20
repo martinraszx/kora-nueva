@@ -108,7 +108,7 @@ npm install
 npm start
 
 ```
-# Linux
+# <img src="https://skillicons.dev/icons?i=linux" height="30px" align="center" /> Linux
 
 ## 1. Prerrequisitos del Sistema
 
