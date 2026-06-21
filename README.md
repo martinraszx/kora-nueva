@@ -36,7 +36,7 @@ El desarrollo se estructura en el marco de ingeniería **CDIO**:
 
 ## 📊 Viabilidad y Equipo
 
-* **Viabilidad:** Ejecución local ligera (Técnica), exenta de custodia de datos sensibles (Legal) y respaldada por Psicología y la Dirección de Género (Ética).
+* **Viabilidad:** Ejecución local ligera (Técnica), exenta de custodia de datos sensibles (Legal) y respaldada la Dirección de Género (Ética).
 
 | Integrante | Roles y Responsabilidades |
 | :--- | :--- |
