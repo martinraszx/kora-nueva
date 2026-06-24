@@ -5,28 +5,28 @@ import { Ionicons } from '@expo/vector-icons'; // Importamos los íconos
 // Lista completa de los 18 niveles del Violentómetro
 const DATOS_VIOLENTOMETRO = [
   // FASE 1: TEN CUIDADO (Amarillos / Alertas tempranas)
-  { id: 1, nivel: '1', titulo: 'Bromas hirientes', descripcion: 'Comentarios que parecen chistes pero tienen la intención de ofender, humillar o ridiculizarte.', color: '#FFD166' },
-  { id: 2, nivel: '2', titulo: 'Chantajear', descripcion: 'Manipulación emocional para hacerte sentir culpa y obligarte a hacer cosas que no quieres hacer.', color: '#FFC857' },
-  { id: 3, nivel: '3', titulo: 'Mentir / Engañar', descripcion: 'Ocultar información importante o distorsionar la realidad para mantener el control sobre ti y tus decisiones.', color: '#FFB703' },
-  { id: 4, nivel: '4', titulo: 'Ignorar / Ley del hielo', descripcion: 'Castigarte con el silencio o la indiferencia absoluta para que cedas durante o después de una discusión.', color: '#FFA200' },
-  { id: 5, nivel: '5', titulo: 'Celar', descripcion: 'Reclamar atención exclusiva de forma exagerada, mostrando desconfianza constante sin ningún motivo real.', color: '#FF8E00' },
-  { id: 6, nivel: '6', titulo: 'Culpabilizar', descripcion: 'Hacerte responsable de sus propios errores, de sus ataques de ira o de todos los problemas en la relación.', color: '#FF7B00' },
+  { id: 1, nivel: '1', titulo: 'Chantajear', descripcion: 'Manipulación emocional para hacerte sentir culpa y obligarte a hacer cosas que no quieres hacer.', color: '#FFD166' },
+  { id: 2, nivel: '2', titulo: 'Mentir / Engañar', descripcion: 'Ocultar información importante o distorsionar la realidad para mantener el control sobre ti y tus decisiones.', color: '#FFC857' },
+  { id: 3, nivel: '3', titulo: 'Ignorar / Ley del hielo', descripcion: 'Castigarte con el silencio o la indiferencia absoluta para que cedas durante o después de una discusión.', color: '#FFB703' },
+  { id: 4, nivel: '4', titulo: 'Celar', descripcion: 'Reclamar atención exclusiva de forma exagerada, mostrando desconfianza constante sin ningún motivo real.', color: '#FFA200' },
+  { id: 5, nivel: '5', titulo: 'Ofender / Humillar', descripcion: 'Usar insultos, gritos o descalificaciones verbales para degradar la dignidad de la persona y hacerla sentir inferior o incapaz.', color: '#FF8E00' },
+  { id: 6, nivel: '6', titulo: 'Intimidar / Amenazar', descripcion: 'Generar miedo mediante miradas, gestos o advertencias verbales sobre posibles consecuencias negativas si no se obedece su voluntad.', color: '#FF7B00' },
 
   // FASE 2: REACCIONA (Naranjas / Abuso evidente)
-  { id: 7, nivel: '7', titulo: 'Descalificar', descripcion: 'Hacerte sentir que tus opiniones, tus gustos o tus logros no valen nada, minimizando quién eres.', color: '#FF6D00' },
-  { id: 8, nivel: '8', titulo: 'Ridiculizar / Ofender', descripcion: 'Burlarse de ti de forma directa, usando palabras hirientes sobre tu físico, tu intelecto o tu familia.', color: '#FA5400' },
-  { id: 9, nivel: '9', titulo: 'Humillar en público', descripcion: 'Hacer comentarios denigrantes, gritarte o exponer tus intimidades frente a otras personas para avergonzarte.', color: '#F03A00' },
-  { id: 10, nivel: '10', titulo: 'Intimidar', descripcion: 'Causar miedo de forma intencional a través de miradas, gestos amenazantes, gritos o actitudes agresivas.', color: '#E62500' },
-  { id: 11, nivel: '11', titulo: 'Controlar / Prohibir', descripcion: 'Decidir sobre tu forma de vestir, prohibirte ver a tus amistades, revisar tus redes sociales o controlar tu dinero.', color: '#DC1400' },
-  { id: 12, nivel: '12', titulo: 'Destruir artículos personales', descripcion: 'Romper tus cosas, regalos, ropa o celular durante un arranque de ira para generar terror y demostrar poder.', color: '#D00000' },
+  { id: 7, nivel: '7', titulo: 'Controlar / Prohibir / Aislar', descripcion: 'Restringir las amistades, vestimenta, redes sociales, horarios o decisiones económicas para anular por completo la autonomía de la persona.', color: '#FF6D00' },
+  { id: 8, nivel: '8', titulo: 'Destruir artículos personales', descripcion: 'Romper tus cosas, regalos, ropa o celular durante un arranque de ira para generar terror y demostrar poder.', color: '#FA5400' },
+  { id: 9, nivel: '9', titulo: 'Intimidar', descripcion: 'Hacer comentarios denigrantes, gritarte o exponer tus intimidades frente a otras personas para avergonzarte.', color: '#F03A00' },
+  { id: 10, nivel: '10', titulo: 'Agredir "jugando"', descripcion: 'Agresiones físicas disfrazadas de "juego" o "bromas pesadas" para normalizar el contacto violento y el dolor.', color: '#E62500' },
+  { id: 11, nivel: '11', titulo: 'Empujar / Jalonear', descripcion: 'Uso de la fuerza física para moverte, retenerte para que no te vayas, o sacudirte durante una discusión.', color: '#DC1400' },
+  { id: 12, nivel: '12', titulo: 'Golpear', descripcion: 'Ejercer fuerza física directa mediante manotazos, bofetadas o patadas, causando daño corporal evidente y rompiendo límites de seguridad básicos.', color: '#D00000' },
 
   // FASE 3: NECESITAS AYUDA URGENTE (Rojos / Violencia física y peligro extremo)
-  { id: 13, nivel: '13', titulo: 'Manosear sin consentimiento', descripcion: 'Tocamientos físicos incómodos o de carácter sexual cuando tú has expresado claramente que no quieres.', color: '#B30000' },
-  { id: 14, nivel: '14', titulo: 'Golpear "jugando"', descripcion: 'Agresiones físicas disfrazadas de "juego" o "bromas pesadas" para normalizar el contacto violento y el dolor.', color: '#990000' },
-  { id: 15, nivel: '15', titulo: 'Pellizcar / Arañar', descripcion: 'Causar dolor físico directo e intencional, dejando marcas sutiles o evidentes en tu cuerpo.', color: '#800000' },
-  { id: 16, nivel: '16', titulo: 'Empujar / Jalonear', descripcion: 'Uso de la fuerza física para moverte, retenerte para que no te vayas, o sacudirte durante una discusión.', color: '#660000' },
-  { id: 17, nivel: '17', titulo: 'Aislar', descripcion: 'Alejarte por completo de tu familia, amigos y red de apoyo mediante prohibiciones, para dejarte sin opciones de ayuda.', color: '#4D0000' },
-  { id: 18, nivel: '18', titulo: 'Amenazar / Forzar', descripcion: 'Obligarte a tener relaciones sexuales bajo presión, o amenazar con quitarte la vida a ti, a tus seres queridos o a sí mismo. ¡Pide ayuda profesional inmediatamente!', color: '#330000' },
+  { id: 13, nivel: '13', titulo: 'Encerrar / Secuestrar', descripcion: 'Privar de la libertad de movimiento, impidiendo que la persona salga de un espacio físico o contacte al exterior.', color: '#B30000' },
+  { id: 14, nivel: '14', titulo: 'Amenazar con Objetos', descripcion: 'Utilizar objetos punzantes, cortantes o armas de fuego para aterrorizar y coaccionar bajo la promesa implícita de muerte.', color: '#990000' },
+  { id: 15, nivel: '15', titulo: 'Amenazar de Muerte', descripcion: 'Advertir verbalmente o con gestos la intención de quitar la vida, infundiendo un miedo extremo para someter a la víctima.', color: '#800000' },
+  { id: 16, nivel: '16', titulo: 'Abusar Sexualmente', descripcion: 'Forzar u obligar a realizar actos de carácter sexual sin consentimiento explícito, utilizando la fuerza, el chantaje o las amenazas.', color: '#660000' },
+  { id: 17, nivel: '17', titulo: 'Violar', descripcion: 'Forzar a realizar actos de carácter sexual o mantener relaciones mediante el uso de la fuerza física, chantaje o amenazas.', color: '#4D0000' },
+  { id: 18, nivel: '18', titulo: 'Asesinar', descripcion: 'Quitar la vida a la pareja de forma violenta, siendo el desenlace definitivo y más extremo de este ciclo destructivo.', color: '#330000' },
 ];
 
 export default function SemaforoScreen() {
