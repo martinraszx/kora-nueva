@@ -1,17 +1,50 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, SafeAreaView, FlatList } from 'react-native';
 import { COLORS } from '../styles/theme';
 
-export default function ResultadosScreen() {
-  const historial = [
+export default function ResultadosScreen({ route }) {
+  // Convertimos tu arreglo en una variable de "estado" para poder agregarle más cosas
+  const [historial, setHistorial] = useState([
     { id: '1', color: 'Color Rojo', nivel: 'Nivel: 3', fecha: '15/05/2026 a las 14:30', hex: COLORS.magenta }
-  ];
+  ]);
+
+  // Esto "escucha" cada vez que llegamos a esta pantalla desde el Cuestionario
+  useEffect(() => {
+    if (route.params?.nuevoNivel && route.params?.timestamp) {
+      const nivel = route.params.nuevoNivel;
+
+      // Dependiendo del nivel (1 al 18), le asignamos un texto y un color para tu tarjeta
+      let nombreColor = 'Alerta Temprana';
+      let colorHex = '#FFB703'; // Amarillo
+
+      if (nivel >= 7 && nivel <= 12) {
+        nombreColor = 'Abuso Evidente';
+        colorHex = '#E85D04'; // Naranja
+      } else if (nivel >= 13) {
+        nombreColor = 'Peligro Inminente';
+        colorHex = '#9D0208'; // Rojo oscuro
+      }
+
+      // Creamos la nueva tarjeta de resultado
+      const nuevoRegistro = {
+        id: route.params.timestamp.toString(), // ID único basado en la hora
+        color: nombreColor,
+        nivel: `Nivel: ${nivel}`,
+        // Obtenemos la fecha y hora actual automáticamente
+        fecha: new Date().toLocaleDateString('es-CL') + ' a las ' + new Date().toLocaleTimeString('es-CL', { hour: '2-digit', minute: '2-digit' }),
+        hex: colorHex
+      };
+
+      // Agregamos el nuevo resultado al inicio de la lista
+      setHistorial(historialPrevio => [nuevoRegistro, ...historialPrevio]);
+    }
+  }, [route.params?.timestamp]); // Reacciona cada vez que el "timestamp" cambia
 
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.infoBox}>
         <Text style={styles.infoText}>
-          Aquí estará el resultado semanal del violentómetro en el tiempo transcurrido desde la instalación de Kora o su primer uso
+          Aquí se mostraran los resultados aproximados de ámbito de la gravedad pero no sera exactamente lo que es, tendrás que ir a ver el Violentómetro para ver cual es el problema
         </Text>
       </View>
 
