@@ -21,7 +21,7 @@ export default function HomeScreen({ navigation }) {
           <TouchableOpacity 
             style={styles.mainButton} 
             onPress={() => navigation.navigate('Cuestionario')}>
-            <Text style={styles.mainButtonText}>Mi termómetro{"\n"}Relacional</Text>
+            <Text style={styles.mainButtonText}>Mi Termómetro{"\n"}Relacional</Text>
           </TouchableOpacity>
 
           <View style={styles.grid}>
