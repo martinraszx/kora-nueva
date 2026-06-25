@@ -125,3 +125,8 @@ npm install
 npm start
 
 ```
+## Vistazo de la Aplicación
+
+<p align="center">
+  <img src="https://github.com/martinraszx/kora-nueva/blob/ce6a2b988b15f0e5e69f49ebbc2385fcb565c8cd/assets/Koragif.gif?raw=true" alt="Kora Animación" width="300">
+</p>
