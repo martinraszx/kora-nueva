@@ -5,21 +5,20 @@
 # Kora 
 
 ### **Proyecto Integrador | Ingeniería Civil en Informática**
-**Universidad de Los Lagos — Sede Chiloé, Chile**
+**Universidad de Los Lagos — Sede Chiloé, Castro**
 
 ---
 
 ## 📱 ¿Qué es Kora?
-**Kora** es una aplicación móvil de asistencia y validación emocional orientada a estudiantes secundarios y universitarios. Su objetivo es ayudar a **identificar conductas de control y manipulación** en parejas mediante cuestionarios breves evaluados académicamente, ofreciendo un diagnóstico inmediato para prevenir situaciones de riesgo o ideación suicida.
+**Kora** es una aplicación móvil de asistencia y validación emocional orientada a estudiantes universitarios. Su objetivo es ayudar a **identificar conductas de control y manipulación** en parejas mediante cuestionarios breves visados por la Dirección de Genero de la Universidad de Los Lagos, ofreciendo un diagnóstico inmediato para prevenir situaciones de riesgo o ideación suicida.
 
 ---
 
 ## 🚀 Características Principales
 
-* **Privacy by Design:** Procesamiento **100% local**. No recolecta datos personales ni almacena historiales en la nube; no deja rastro digital.
+* **Privacidad:** Procesamiento **100% local**. No recolecta datos personales ni almacena historiales en la nube; no deja rastro digital.
 * **Violentómetro:** Clasificación objetiva de conductas abusivas para romper ciclos de *gaslighting*.
-* **Puente de Seguridad:** Enlace directo automático con canales de apoyo profesional y líneas de emergencia nacionales.
-* **Identidad Neutra:** Nombre discreto diseñado para pasar desapercibido ante parejas controladoras.
+* **Test Relacional:** El Test Relacional es el corazón del software. Nuestro trabajo en diseño y gestión consistió en tomar un instrumento psicológico complejo y transformarlo en un cuestionario móvil interactivo, rápido y discreto. 
 
 ---
 
@@ -41,9 +40,9 @@ El desarrollo se estructura en el marco de ingeniería **CDIO**:
 | Integrante | Roles y Responsabilidades |
 | :--- | :--- |
 | **Martín Aguirre** | Diseñador UI/UX & Creación de código |
-| **Ignacio Sáez** | Diseñador UI/UX & Encargado de Informe en LaTeX|
+| **Ignacio Sáez** | Diseñador UI/UX & Encargado de Documentación|
 | **Felipe Levicán** | Diseñador UI/UX & Lider del Equipo |
-| **Eduard Contreras** | Encargado de Informe en LaTeX |
+| **Eduard Contreras** | Encargado de Documentación|
 
 ---
 
@@ -64,7 +63,7 @@ Antes de iniciar con los comandos, asegúrese de contar con las siguientes herra
 3. **Editor de Código:** Se sugiere [Visual Studio Code](https://code.visualstudio.com/).
 
 ### En el Dispositivo Móvil (Smartphone)
-* Descargue e instale la aplicación gratuita **Expo Go** desde la Google Play Store (Android) o la App Store (iOS).
+* Descargue e instale la aplicación gratuita **Expo Go** desde la Google Play Store (Android) o la App Store (iOS) [Expo GO](https://expo.dev/go).
 
 > ⚠️ **REQUISITO CRÍTICO DE RED:** La computadora con Windows y el dispositivo móvil con Expo Go **deben estar conectados exactamente a la misma red Wi-Fi** local.
 
@@ -76,7 +75,7 @@ Abra la terminal de Windows (PowerShell, CMD o terminal de VS Code) y ejecute lo
 
 ```bash
 # 1. Clonar el repositorio remoto
-git clone [https://github.com/martinraszx/kora-nueva.git](https://github.com/martinraszx/kora-nueva.git)
+git clone https://github.com/martinraszx/kora-nueva.git
 
 # 2. Acceder a la carpeta del proyecto
 cd kora-nueva
@@ -114,7 +113,7 @@ echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 
 # Paso 1: Clonar el repositorio remoto desde GitHub
-git clone [https://github.com/martinraszx/kora-nueva.git](https://github.com/martinraszx/kora-nueva.git)
+git clone https://github.com/martinraszx/kora-nueva.git
 
 # Paso 2: Trasladar la ruta de la terminal a la carpeta raíz del proyecto
 cd kora-nueva
