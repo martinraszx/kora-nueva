@@ -46,7 +46,7 @@ El desarrollo se estructura en el marco de ingeniería **CDIO**:
 
 ---
 
-## 💻 Configuración de Entorno de Intalación
+## 💻 Configuración del Entorno de Intalación
 # <img src="https://skillicons.dev/icons?i=windows" height="30px" align="center" /> Windows
 
 Este proyecto de Kora es una aplicación móvil desarrollada utilizando **React Native** y el ecosistema **Expo Go**. A continuación, se detalla el flujo de instalación completo junto con el catálogo de comandos necesarios para administrar, depurar y ejecutar el servidor de desarrollo en entornos Windows.
